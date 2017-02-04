@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cdcrabtree/plotrr.svg?branch=master)](https://travis-ci.org/cdcrabtree/plotrr) [![Build Status](https://ci.appveyor.com/project/cdcrabtree/plotrr/master)](https://ci.appveyor.com/project/cdcrabtree/plotrr/master)
+[![Build Status](https://travis-ci.org/cdcrabtree/plotrr.svg?branch=master)](https://travis-ci.org/cdcrabtree/plotrr) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/plotrr?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/)
 
 ## plotrr
 
