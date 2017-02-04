@@ -1,6 +1,8 @@
 ## plotrr
 
-Social scientists can do better research by doing more exploratory data analysis (Tukey 1977). One reason why they might not, however, is because it takes additional time. This is particularly true for R users, who do not have single-line commands for many common visual EDA techniques. plotrr helps address this issue by providing several functions that make visual EDA easier to conduct. In addition to these funtions, the package also contains several other "helper," or convenience, functions.
+Social scientists can do better research by doing more exploratory data analysis (Tukey 1977). One reason why they might not, however, is because it takes additional time. This is particularly true for R users, who do not have single-line commands for many common visual EDA techniques. plotrr helps address this issue by providing several functions that make visual EDA easier to conduct. 
+
+The focus of many functions is to create plots that can help researchers explore relationships within panel datasets. Among other things, these functions can help scholars assess the extent to which expected relationships occur in important cases. In addition to visualization functions, the package also contains several "helper," or convenience, functions.
 
 ### Support or Contact
 
