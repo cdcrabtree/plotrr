@@ -1,1 +1,4 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("stats", "loess")
+importFrom("utils", "installed.packages")
+importFrom("ggplot2")
