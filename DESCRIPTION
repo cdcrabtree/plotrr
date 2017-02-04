@@ -1,12 +1,14 @@
 Package: plotrr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Making Visual Exploratory Data Analysis Easier
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: as.person(c(
+    "Charles Crabtree <ccrabtr@umich.edu> [aut, cre]",
+    "Michael J. Nelson <mjn15@psu.edu> [aut]"
+  ))
+Maintainer: Charles Crabtree <ccrabtr@umich.edu>
+Description: Functions for making visual exploratory data analysis easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2
