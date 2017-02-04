@@ -1,4 +1,5 @@
 #--- Bivariate plots function ---#
+#' @export
 
 bivarplots <- function(x, y, unit, plotdata) {
   with(plotdata, {

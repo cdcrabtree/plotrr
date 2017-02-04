@@ -1,4 +1,5 @@
 #--- Save installed package list function --#
+#' @export
 
 save.package.list <- function(wd=NULL, file=NULL) {
   if (is.null(wd)) {

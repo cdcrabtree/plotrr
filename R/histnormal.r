@@ -1,4 +1,5 @@
 #--- Histogram with normal density curve function ---#
+#' @export
 
 histnormal <- function(x, plotdata) {
   with(plotdata, {

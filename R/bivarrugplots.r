@@ -1,4 +1,5 @@
 #--- Rugplot function ---#
+#' @export
 
 bivarrugplots <- function(x, plotdata) {
   with(plotdata, {

@@ -1,4 +1,5 @@
 #--- Violin plots function ---#
+#' @export
 
 violinplots <- function(x, y, unit, plotdata) {
   with(plotdata, {

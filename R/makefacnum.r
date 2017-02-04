@@ -1,4 +1,5 @@
 #--- Convert factor to numeric function ---#
+#' @export
 
 makefacnum <- function(x) {
   if (is.factor(x) == TRUE) {
