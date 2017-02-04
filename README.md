@@ -9,10 +9,12 @@ The focus of many functions is to create plots that can help researchers explore
 ## Package Installation
 The latest development version on GitHub can be installed using devtools:
 
-~~~~if(!require("ghit")){
+```
+if(!require("ghit")){
     install.packages("ghit")
 }
-ghit::install_github("cdcrabtree/plotrr")~~~~
+ghit::install_github("cdcrabtree/plotrr")
+```
 
 ## Support or Contact
 
