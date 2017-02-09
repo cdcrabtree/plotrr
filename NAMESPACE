@@ -3,6 +3,7 @@
 export(bivarplots)
 export(bivarrugplots)
 export(clear)
+export(groupcor)
 export(histnormal)
 export(length_unique)
 export(makefacnum)

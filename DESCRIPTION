@@ -11,5 +11,7 @@ Description: Functions for making visual exploratory data analysis easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2
-RoxygenNote: 5.0.1.9000
+Imports:
+    ggplot2,
+    dplyr
+RoxygenNote: 5.0.1
