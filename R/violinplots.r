@@ -1,7 +1,7 @@
 #--- Violin plots function ---#
 #' @export
 
-violinplots <- function(x, y, unit, plotdata) {
+violinplots <- function(x, y, unit, data) {
   with(plotdata, {
     for(i in 1:length(unique(plotdata$unit))) {
       j <- unique(plotdata$unit)[i]

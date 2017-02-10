@@ -2,31 +2,31 @@
 % Please edit documentation in R/groupcor.r
 \name{groupcor}
 \alias{groupcor}
-\title{Calculates the correlation between measures within groups}
+\title{Calculates the correlation between measures within units/groups}
 \usage{
-groupcor(x, y, unit, plotdata, stat)
+groupcor(x, y, unit, data, stat)
 }
 \arguments{
 \item{x}{A vector.}
 
 \item{y}{A vector.}
 
-\item{unit}{A vector that contians unit identifiers.}
+\item{unit}{A vector that contains unit/group identifiers.}
 
-\item{plotdata}{A data frame.}
+\item{data}{A data frame.}
 
 \item{stat}{The type of correlation coefficient to be calculated. One of "pearson", "kendall", or "spearman".}
 }
 \value{
-A data frame with unit identifiers and calculated correlation coefficients.
+A tibble data frame with unit identifiers and calculated correlation coefficients.
 }
 \examples{
 \dontrun{
-x <- runif(1000, min = 0, max = 1)
-y <- x + rnorm(1000, mean = 0, sd =1)
-z <- rep(c(1:10), times = 100)
-data <- data.frame(x, y, z)
-groupcor(x, y, z, data)
+a <- runif(1000, min = 0, max = 1)
+b <- x + rnorm(1000, mean = 0, sd =1)
+c <- rep(c(1:10), times = 100)
+data <- data.frame(a, b, c)
+groupcor("a", "b", "c", data, "pearson")
 print(dat)
 }
 }
