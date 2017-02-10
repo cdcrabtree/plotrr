@@ -22,9 +22,10 @@ A data frame with unit identifiers and calculated correlation coefficients.
 }
 \examples{
 \dontrun{
-data$x <- runif(1000, min = 0, max = 1)
-data$y <- x + rnorm(1000, mean = 0, sd =1)
-data$z <- rep(c(1:10), times = 100)
+x <- runif(1000, min = 0, max = 1)
+y <- x + rnorm(1000, mean = 0, sd =1)
+z <- rep(c(1:10), times = 100)
+data <- data.frame(x, y, z)
 groupcor(x, y, z, data)
 print(dat)
 }

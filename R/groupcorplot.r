@@ -16,6 +16,7 @@
 #'groupcorplot(x, y, z, data, "pearson")
 #'print(dat)
 #'}
+#'@importFrom dplyr "%>%"
 #'@export
 
 groupcorplot <- function(x, y, unit, plotdata, stat) {
