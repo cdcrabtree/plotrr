@@ -1,7 +1,16 @@
 #--- Save installed package list function --#
-#' @export
+#'@title Prints the list of installed packages to a text file
+#'@author Charles Crabtree \email{ccrabtr@umich.edu}
+#'@param wd The directory to which the text file will be exported. The default is the working directory.
+#'@param file The name of the exported text file. The default is \code{installed_r_packages.txt}.
+#'@return A text file that contains a list of all installed packages.
+#'@examples
+#'\dontrun{
+#'save.package.list(wd = "~/", file = "packages.txt")
+#'}
+#'@export
 
-save.package.list <- function(wd=NULL, file=NULL) {
+save.package.list <- function(wd = NULL, file = NULL) {
   if (is.null(wd)) {
     setwd(getwd())
   } else {
