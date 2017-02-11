@@ -3,3 +3,5 @@
 ^\.travis\.yml$
 ^appveyor\.yml$
 ^revdep$
+^_config\.yml$
+^\.gitattributes\.R$
