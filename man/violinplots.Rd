@@ -28,7 +28,6 @@ b <- x + rnorm(1000, mean = 0, sd =1)
 c <- rep(c(1:10), times = 100)
 data <- data.frame(a, b, c)
 violinplots("a", "b", "c", data)
-print(dat)
 }
 }
 \author{
