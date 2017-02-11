@@ -5,3 +5,4 @@
 ^revdep$
 ^_config\.yml$
 ^\.gitattributes\.R$
+^cran-comments\.md$

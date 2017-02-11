@@ -7,10 +7,10 @@
 #'@examples
 #'\dontrun{
 #'x <- rep(c(1:10), 10)
-#'length_unique(x)
+#'length.unique(x)
 #'}
 #'@export
 
-length_unique <- function(x) {
+length.unique <- function(x) {
   length(unique(x[!is.na(x)]))
 }
