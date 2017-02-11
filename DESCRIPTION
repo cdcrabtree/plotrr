@@ -1,7 +1,7 @@
 Package: plotrr
 Type: Package
 Title: Making Visual Exploratory Data Analysis Easier
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: as.person(c(
     "Charles Crabtree <ccrabtr@umich.edu> [aut, cre]",
     "Michael J. Nelson <mjn15@psu.edu> [aut]"
@@ -13,6 +13,5 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     ggplot2,
-    dplyr,
-    broom
+    dplyr
 RoxygenNote: 5.0.1
