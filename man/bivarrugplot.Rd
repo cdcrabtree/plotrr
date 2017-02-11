@@ -22,7 +22,7 @@ Returns a plot of the bivariate relationship between two measures with a rugplot
 \examples{
 \dontrun{
 a <- runif(1000, min = 0, max = 1)
-b <- x + rnorm(1000, mean = 0, sd =1)
+b <- a + rnorm(1000, mean = 0, sd =1)
 data <- data.frame(a, b)
 bivarrugplot("a", "b", data)
 }
