@@ -2,9 +2,12 @@
 % Please edit documentation in R/clear.r
 \name{clear}
 \alias{clear}
-\title{(Effectively) clearss R terminal}
+\title{(Effectively) clears R terminal}
 \usage{
 clear(...)
+}
+\arguments{
+\item{...}{An unused argument.}
 }
 \examples{
 \dontrun{

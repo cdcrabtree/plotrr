@@ -1,13 +1,12 @@
 #--- Group correlation plot function ---#
-#'@title Plots the correlation coefficient between measures across units
+#'@title Plots the correlation coefficient between measures across groups/units
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
-#'@seealso \code{\link{bivarplots}}, \code{\link{groupcor}}
 #'@param x A vector.
 #'@param y A vector.
-#'@param unit A vector that contians unit identifiers.
+#'@param group A vector that contians group identifiers.
 #'@param data A data frame.
 #'@param stat The type of correlation coefficient to be calculated. One of "pearson", "kendall", or "spearman".
-#'@return A figure that plots the correlation coefficient between measures across units.
+#'@return A figure that plots the correlation coefficient between measures across groups/units.
 #'@examples
 #'\dontrun{
 #'a <- runif(1000, min = 0, max = 1)
@@ -20,9 +19,9 @@
 #'@importFrom dplyr "%>%"
 #'@export
 
-groupcorplot <- function(x, y, unit, data, stat) {
+groupcorplot <- function(x, y, group, data, stat) {
   with(data, {dat <- data %>%
-    group_by(data[[unit]]) %>%
+    group_by(data[[group]]) %>%
     dplyr::summarize(correlation = cor(data[[x]], data[[y]], method = c(stat)))
     dat <- data.frame(dat)
     corplot <- ggplot2::ggplot(dat, aes_string(x = 'dat[, 1]', y = 'dat[ ,2]'))

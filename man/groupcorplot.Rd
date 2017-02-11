@@ -2,23 +2,23 @@
 % Please edit documentation in R/groupcorplot.r
 \name{groupcorplot}
 \alias{groupcorplot}
-\title{Plots the correlation coefficient between measures across units}
+\title{Plots the correlation coefficient between measures across groups/units}
 \usage{
-groupcorplot(x, y, unit, data, stat)
+groupcorplot(x, y, group, data, stat)
 }
 \arguments{
 \item{x}{A vector.}
 
 \item{y}{A vector.}
 
-\item{unit}{A vector that contians unit identifiers.}
+\item{group}{A vector that contians group identifiers.}
 
 \item{data}{A data frame.}
 
 \item{stat}{The type of correlation coefficient to be calculated. One of "pearson", "kendall", or "spearman".}
 }
 \value{
-A figure that plots the correlation coefficient between measures across units.
+A figure that plots the correlation coefficient between measures across groups/units.
 }
 \examples{
 \dontrun{
@@ -32,8 +32,5 @@ print(dat)
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
-}
-\seealso{
-\code{\link{bivarplots}}, \code{\link{groupcor}}
 }
 

@@ -1,6 +1,7 @@
 #--- Clear function ---#
-#'@title (Effectively) clearss R terminal
+#'@title (Effectively) clears R terminal
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
+#'@param ... An unused argument.
 #'@examples
 #'\dontrun{
 #'clear()
