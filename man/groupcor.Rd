@@ -20,6 +20,9 @@ groupcor(x, y, group, data, stat)
 \value{
 A tibble data frame with group identifiers and calculated correlation coefficients.
 }
+\description{
+Returns a tibble data frame with group/unit identifiers and the correlation coefficient between two measures for each group/unit in a data frame. This can be used to examine the relationsip between two factors within cases.
+}
 \examples{
 \dontrun{
 a <- runif(1000, min = 0, max = 1)

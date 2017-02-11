@@ -1,5 +1,6 @@
 #--- Group correlation plot function ---#
 #'@title Plots the correlation coefficient between measures across groups/units
+#'@description Returns a figure that plots the correlation coefficient between measures within groups/units. This can be used to visually explore the relationsip between two factors within cases.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param x A vector.
 #'@param y A vector.
@@ -30,4 +31,3 @@ groupcorplot <- function(x, y, group, data, stat) {
   }
   )
 }
-

@@ -12,6 +12,9 @@ makefacnum(x)
 \value{
 A numeric vector.
 }
+\description{
+Converts factor vectors to numeric vectors.
+}
 \examples{
 \dontrun{
 x <- c("x", "y", "z")

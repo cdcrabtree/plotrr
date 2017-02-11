@@ -12,6 +12,9 @@ length_unique(x)
 \value{
 The number of unique values in a vector.
 }
+\description{
+Calculates the number of unique values in a vector.
+}
 \examples{
 \dontrun{
 x <- rep(c(1:10), 10)

@@ -1,5 +1,6 @@
 #--- Group correlation function ---#
 #'@title Calculates the correlation between measures within groups/units
+#'@description Returns a tibble data frame with group/unit identifiers and the correlation coefficient between two measures for each group/unit in a data frame. This can be used to examine the relationsip between two factors within cases.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param x A vector.
 #'@param y A vector.

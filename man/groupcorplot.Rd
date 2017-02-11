@@ -20,6 +20,9 @@ groupcorplot(x, y, group, data, stat)
 \value{
 A figure that plots the correlation coefficient between measures across groups/units.
 }
+\description{
+Returns a figure that plots the correlation coefficient between measures within groups/units. This can be used to visually explore the relationsip between two factors within cases.
+}
 \examples{
 \dontrun{
 a <- runif(1000, min = 0, max = 1)

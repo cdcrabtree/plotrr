@@ -1,5 +1,6 @@
 #--- Convert factor to numeric function ---#
 #'@title Converts factor vectors to numeric vectors
+#'@description Converts factor vectors to numeric vectors.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param x A vector.
 #'@return A numeric vector.

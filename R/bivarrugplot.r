@@ -1,10 +1,11 @@
-#--- Rugplot function ---#
+#--- Bivariate plot with rugplot function ---#
 #'@title Plots the bivariate relationship between two measures and a rugplot for each measure
+#'@description Returns a plot of the bivariate relationship between two measures with a rugplot of each measure.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param x A vector.
 #'@param y A vector.
 #'@param data A data frame.
-#'@return A plot of the bivariate relationship between two measures and a rugplot for each measure.
+#'@return A plot of the bivariate relationship between two measures with a rugplot for each measure.
 #'@examples
 #'\dontrun{
 #'a <- runif(1000, min = 0, max = 1)

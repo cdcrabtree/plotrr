@@ -14,7 +14,10 @@ bivarrugplot(x, y, data)
 \item{data}{A data frame.}
 }
 \value{
-A plot of the bivariate relationship between two measures and a rugplot for each measure.
+A plot of the bivariate relationship between two measures with a rugplot for each measure.
+}
+\description{
+Returns a plot of the bivariate relationship between two measures with a rugplot of each measure.
 }
 \examples{
 \dontrun{

@@ -14,6 +14,9 @@ save.package.list(wd = NULL, file = NULL)
 \value{
 A text file that contains a list of all installed packages.
 }
+\description{
+Print the list of installed packages to a text file.
+}
 \examples{
 \dontrun{
 save.package.list(wd = "~/", file = "packages.txt")

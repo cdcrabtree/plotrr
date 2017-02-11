@@ -2,23 +2,24 @@
 % Please edit documentation in R/violinplots.r
 \name{violinplots}
 \alias{violinplots}
-\title{Creates violin plots for a relationship between two measures across units}
+\title{Creates violin plots for the relationship between two measures for each group/unit}
 \usage{
-violinplots(x, y, unit, data)
+violinplots(x, y, group, data)
 }
 \arguments{
 \item{x}{A vector.}
 
 \item{y}{A vector.}
 
-\item{unit}{A vector that contains unit/group identifiers.}
+\item{group}{A vector that contains unit/group identifiers.}
 
 \item{data}{A data frame.}
-
-\item{stat}{The type of correlation coefficient to be calculated. One of "pearson", "kendall", or "spearman".}
 }
 \value{
-A tibble data frame with unit identifiers and calculated correlation coefficients.
+Violin plots for the relationship between two measures for each group/unit.
+}
+\description{
+Returns violin plots for the relationship between two measures for each group/unit.
 }
 \examples{
 \dontrun{
