@@ -14,7 +14,6 @@
 #'c <- rep(c(1:10), times = 100)
 #'data <- data.frame(a, b, c)
 #'violinplots("a", "b", "c", data)
-#'print(dat)
 #'}
 #'@export
 
@@ -22,7 +21,7 @@ violinplots <- function(x, y, group, data) {
   with(data, {
     for(i in 1:length(unique(data[[group]]))) {
       j <- unique(data[[group]])[i]
-      violin.j <- ggplot2::ggplot(data[data[[group]]==j, ], aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_violin() + ggplot2::labs(title = j, xlab = "x", ylab = "y")
+      violin.j <- ggplot2::ggplot(data[data[[group]]==j, ], aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_violin() + ggplot2::labs(title = j) + xlab(x) + ylab(y)
       violin.j <- violin.j + ggplot2::theme_bw()
       print(violin.j)
     }
