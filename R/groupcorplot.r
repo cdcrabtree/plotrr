@@ -18,6 +18,7 @@
 #'print(dat)
 #'}
 #'@importFrom dplyr "%>%"
+#'@importFrom stats "cor"
 #'@export
 
 groupcorplot <- function(x, y, group, data, stat) {

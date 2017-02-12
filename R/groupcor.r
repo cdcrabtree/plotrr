@@ -18,6 +18,7 @@
 #'print(dat)
 #'}
 #'@importFrom dplyr "%>%"
+#'@importFrom stats "cor"
 #'@export
 
 groupcor <- function(x, y, group, data, stat) {

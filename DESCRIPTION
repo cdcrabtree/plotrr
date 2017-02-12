@@ -2,16 +2,15 @@ Package: plotrr
 Type: Package
 Title: Making Visual Exploratory Data Analysis Easier
 Version: 0.2.0
-Authors@R: as.person(c(
-    "Charles Crabtree <ccrabtr@umich.edu> [aut, cre]",
-    "Michael J. Nelson <mjn15@psu.edu> [aut]"
-  ))
-Maintainer: Charles Crabtree <ccrabtr@umich.edu>
+Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
+                     email = "ccrabtr@umich.edu"),
+              person("Michael J.", "Nelson", role = c("aut")))
 Description: Functions for making visual exploratory data analysis easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
     ggplot2,
-    dplyr
-RoxygenNote: 5.0.1
+    dplyr,
+    stats
+RoxygenNote: 5.0.1.9000
