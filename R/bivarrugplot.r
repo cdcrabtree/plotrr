@@ -1,6 +1,6 @@
 #--- Bivariate plot with rugplot function ---#
 #'@title Plots the bivariate relationship between two measures and a rugplot for each measure
-#'@description Returns a plot of the bivariate relationship between two measures with a rugplot of each measure.
+#'@description Returns a plot of the bivariate relationship between two measures with a rugplot for each measure.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param x A vector.
 #'@param y A vector.

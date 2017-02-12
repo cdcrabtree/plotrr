@@ -1,11 +1,11 @@
 Package: plotrr
 Type: Package
-Title: Making Visual Exploratory Data Analysis Easier
+Title: Making Visual Exploratory Data Analysis with nested Data Easier
 Version: 0.2.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Michael J.", "Nelson", role = c("aut")))
-Description: Functions for making visual exploratory data analysis easier.
+Description: Functions for making visual exploratory data analysis with nested data easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
