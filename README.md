@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/cdcrabtree/plotrr.svg?branch=master)](https://travis-ci.org/cdcrabtree/plotrr) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/plotrr?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) ![](http://www.r-pkg.org/badges/version/plotrr) [![DOI](https://zenodo.org/badge/80883292.svg)](https://zenodo.org/badge/latestdoi/80883292) [![status](http://joss.theoj.org/papers/4f707062d9621de3b7009a2ad62cc8cc/status.svg)](http://joss.theoj.org/papers/4f707062d9621de3b7009a2ad62cc8cc)
 
-
 ## plotrr
 
 Social scientists can improve their research by conducting exploratory data analysis (Tukey 1977). One reason why they might not, however, is because it takes additional time. This is particularly true for researchers who use nested data. The issue here is that few existing functions help scholars _easily_ visualize relationships within groups/units. 
@@ -14,13 +13,19 @@ In addition to these functions, the package also includes `histplots`, which cre
 Finally, the package also contains several "helper," or convenience, functions.
 
 ## Package Installation
-The latest development version on GitHub can be installed using devtools:
+The latest development version on GitHub can be installed using devtools.
 
 ```
 if(!require("ghit")){
     install.packages("ghit")
 }
 ghit::install_github("cdcrabtree/plotrr")
+```
+
+The latest stable version (0.2.0) can be installed from Cran.
+
+```
+install.packages("plotrr")
 ```
 
 ## Support or Contact
