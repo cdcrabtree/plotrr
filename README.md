@@ -14,9 +14,15 @@ They can also help scholars check the correlation between competing measures - s
 
 In addition to these functions, the package also includes `histplots`, which creates histograms of a measure for each group/unit, and `bivarrugplot`, which returns a plot of the bivariate relationship between two measures alongside a rugplot of each measure.
 
-Finally, the package also contains several "helper," or convenience, functions.
+Finally, the package also contains several "helper," or convenience, functions. `clear` effectively clears the R terminal. `lengthunique` calculates the number of uniques values in a vector. `makefacnum` converts factor vectors numeric vectors.
 
 ## Package Installation
+The latest stable version (0.2.0) can be installed from CRAN.
+
+```
+install.packages("plotrr")
+```
+
 The latest development version on GitHub can be installed using devtools.
 
 ```
@@ -24,12 +30,6 @@ if(!require("ghit")){
     install.packages("ghit")
 }
 ghit::install_github("cdcrabtree/plotrr")
-```
-
-The latest stable version (0.2.0) can be installed from CRAN.
-
-```
-install.packages("plotrr")
 ```
 
 ## Support or Contact
