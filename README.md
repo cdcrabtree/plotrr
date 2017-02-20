@@ -8,7 +8,7 @@ plotrr helps address this issue by providing several functions that make visual 
 
 Another set of functions helps the researcher evaluate correlations between measures within groups/units. `groupcor` returns a tibble data frame with group/unit identifiers and the correlation coefficient between two measures for each group/unit in a data frame. `groupcorplot` performs a similar function and returns a figure that plots the correlation coefficient between measures within groups/units. These functions can help researchers identify important patterns across groups/units.
 
-In addition to these functions, the package also includes `histplots`, which creates histograms for a measure for each group/unit, and `bivarrugplot`, which returns a plot of the bivariate relationship between two measures alongside a rugplot of each measure.
+In addition to these functions, the package also includes `histplots`, which creates histograms of a measure for each group/unit, and `bivarrugplot`, which returns a plot of the bivariate relationship between two measures alongside a rugplot of each measure.
 
 Finally, the package also contains several "helper," or convenience, functions.
 
@@ -22,7 +22,7 @@ if(!require("ghit")){
 ghit::install_github("cdcrabtree/plotrr")
 ```
 
-The latest stable version (0.2.0) can be installed from Cran.
+The latest stable version (0.2.0) can be installed from CRAN.
 
 ```
 install.packages("plotrr")
