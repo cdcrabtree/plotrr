@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/cdcrabtree/plotrr.svg?branch=master)](https://travis-ci.org/cdcrabtree/plotrr) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/plotrr?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/) ![](http://www.r-pkg.org/badges/version/plotrr) ![](http://cranlogs.r-pkg.org/badges/plotrr) [![DOI](https://zenodo.org/badge/80883292.svg)](https://zenodo.org/badge/latestdoi/80883292) [![status](http://joss.theoj.org/papers/4f707062d9621de3b7009a2ad62cc8cc/status.svg)](http://joss.theoj.org/papers/4f707062d9621de3b7009a2ad62cc8cc)
 
-## plotrr
+# plotrr: Functions for making visual exploratory data analysis with nested data easier.
 
 Social scientists can improve their research by conducting exploratory data analysis (Tukey 1977). One reason why they might not, however, is because it takes additional time. This is particularly true for researchers who use nested data. The issue here is that few existing functions help scholars _easily_ visualize relationships within groups/units. 
 
