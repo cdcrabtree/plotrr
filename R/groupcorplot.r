@@ -17,7 +17,7 @@
 #'groupcorplot("a", "b", "c", data, "pearson")
 #'print(dat)
 #'}
-#'@importFrom dplyr "%>%"
+#'@importFrom dplyr "%>%" "group_by"
 #'@importFrom stats "cor"
 #'@export
 
