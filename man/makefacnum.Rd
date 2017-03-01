@@ -28,4 +28,3 @@ is.numeric(x)
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-

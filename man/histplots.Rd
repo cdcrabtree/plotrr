@@ -35,4 +35,3 @@ histplots("a", "b", "c", data, 5)
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-

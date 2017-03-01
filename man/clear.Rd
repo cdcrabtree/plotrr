@@ -20,4 +20,3 @@ clear()
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-

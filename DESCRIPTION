@@ -1,6 +1,6 @@
 Package: plotrr
 Type: Package
-Title: Making Visual Exploratory Data Analysis with nested Data Easier
+Title: Making Visual Exploratory Data Analysis with Nested Data Easier
 Version: 0.2.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
@@ -13,4 +13,4 @@ Imports:
     ggplot2,
     dplyr,
     stats
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 6.0.1

@@ -17,7 +17,7 @@ bivarrugplot(x, y, data)
 A plot of the bivariate relationship between two measures with a rugplot for each measure.
 }
 \description{
-Returns a plot of the bivariate relationship between two measures with a rugplot of each measure.
+Returns a plot of the bivariate relationship between two measures with a rugplot for each measure.
 }
 \examples{
 \dontrun{
@@ -30,4 +30,3 @@ bivarrugplot("a", "b", data)
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-

@@ -11,6 +11,6 @@
 #'}
 #'@export
 
-length.unique <- function(x) {
+lengthunique <- function(x) {
   length(unique(x[!is.na(x)]))
 }

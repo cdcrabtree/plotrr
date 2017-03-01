@@ -33,4 +33,3 @@ violinplots("a", "b", "c", data)
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-
