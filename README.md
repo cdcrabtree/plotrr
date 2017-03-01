@@ -2,7 +2,9 @@
 
 # plotrr: Functions for making visual exploratory data analysis with nested data easier.
 
-Social scientists can improve their research by conducting exploratory data analysis (Tukey 1977). One reason why they might not, however, is because it takes additional time. This is particularly true for researchers who use nested data. The issue here is that few existing functions help scholars _easily_ visualize relationships within groups/units. 
+Social scientists can improve their research by conducting exploratory data analysis (EDA) (Tukey 1977). The benefits of EDA include: ''maximiz[ing] insight into a data set; uncover[ing] underlying structure; extract[ing] important variables; detect[ing] outliers and anomalies; test[ing] underlying assumptions; develop[ing] parsimonious models; and determin[ing] optimal factor settings'' (NIST/SEMATECH 2012). Despite these benefits, scholars infrequently conduct EDA. One possible explanation for this is because it takes additional time to do so; it is often easier to move straight to confirmatory analysis.  
+
+The time concern is particularly an issue for researchers who use nested data. The issue here is that most existing EDA software routines visualize relationships based on the pooled data. Few existing functions help scholars _easily_ visualize relationships within groups/units. 
 
 plotrr helps address this issue by providing several functions that make visual EDA easier to conduct.  The focus of many of the package's functions is to create plots that can help researchers explore relationships within nested data. Among other things, these functions can help scholars assess the extent to which expected relationships between variables occur in specific cases. `bivarplots` creates a bivariate plot for every group/unit in the data, `dotplots` creates a dot plot for every group/unit, and `violinplots` creates a violin plot for every group/unit. 
 
@@ -45,5 +47,6 @@ Thanks to [Karl Broman](https://github.com/kbroman) for his excellent reviewer s
 
 ### References
 - Crabtree, Charles, and Michael J. Nelson. 2017. "New Evidence for a Positive Relationship Between De Facto Judicial Independence and State Respect for Empowerment Rights." _International Studies Quarterly_.
+- NIST/SEMATECH. 2012. _e-Handbook of Statistical Methods_. [http://www.itl.nist.gov/div898/handbook/](http://www.itl.nist.gov/div898/handbook/).
 - Trochim, William M. K., and James P. Donnelly. 2008. _Research Methods Knowledge Base_. New York, NY: Cengage Learning.
 - Tukey, John W. 1977. _Exploratory Data Analysis_. New York, NY: Pearson.
