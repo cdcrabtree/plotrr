@@ -9,7 +9,7 @@
 #'x <- rep(c(1:10), 10)
 #'length.unique(x)
 #'}
-#'@export
+#'@export length.unique
 
 lengthunique <- function(x) {
   length(unique(x[!is.na(x)]))

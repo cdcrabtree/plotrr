@@ -17,7 +17,7 @@
 
 bivarrugplot <- function(x, y, data) {
   with(data, {
-    bivar.rug <- ggplot2::ggplot(data, aes(x = data[[x]], y = data[[y]]))
+    bivar.rug <- ggplot2::ggplot(data, ggplot2::aes(x = data[[x]], y = data[[y]]))
     bivar.rug <- bivar.rug + ggplot2::scale_x_continuous(limit=c(min(data[[x]]), max(data[[x]]))) + ggplot2::scale_y_continuous(limit=c(min(data[[y]]), max(data[[y]])))
     bivar.rug <- bivar.rug + ggplot2::geom_point() + ggplot2::geom_rug(size=0.2) + ggplot2::theme_bw()
     print(bivar.rug)

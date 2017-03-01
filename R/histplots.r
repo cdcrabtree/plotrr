@@ -22,7 +22,7 @@ histplots <- function(x, y, group, data, n) {
   with(data, {
     for(i in 1:length(unique(data[[group]]))) {
       j <- unique(data[[group]])[i]
-      hist.j <- ggplot2::ggplot(data[data[[group]]==j, ], aes(x = data[[x]][data[[group]]==j])) + ggplot2::geom_histogram(bins=n) + ggplot2::labs(title = j) + xlab(x)
+      hist.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j])) + ggplot2::geom_histogram(bins=n) + ggplot2::labs(title = j) + ggplot2::xlab(x)
       hist.j <- hist.j + ggplot2::theme_bw()
       print(hist.j)
     }

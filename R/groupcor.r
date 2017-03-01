@@ -15,7 +15,6 @@
 #'c <- rep(c(1:10), times = 100)
 #'data <- data.frame(a, b, c)
 #'groupcor("a", "b", "c", data, "pearson")
-#'print(dat)
 #'}
 #'@importFrom dplyr "%>%"
 #'@importFrom stats "cor"
@@ -27,5 +26,3 @@ groupcor <- function(x, y, group, data, stat) {
     dplyr::summarize(correlation = cor(data[[x]], data[[y]], method = c(stat)))
     print(dat)
 }
-
-
