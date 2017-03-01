@@ -30,10 +30,8 @@ b <- a + rnorm(1000, mean = 0, sd =1)
 c <- rep(c(1:10), times = 100)
 data <- data.frame(a, b, c)
 groupcorplot("a", "b", "c", data, "pearson")
-print(dat)
 }
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-

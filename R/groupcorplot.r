@@ -15,9 +15,8 @@
 #'c <- rep(c(1:10), times = 100)
 #'data <- data.frame(a, b, c)
 #'groupcorplot("a", "b", "c", data, "pearson")
-#'print(dat)
 #'}
-#'@importFrom dplyr "%>%"
+#'@importFrom dplyr "%>%" "group_by"
 #'@importFrom stats "cor"
 #'@export
 
@@ -26,7 +25,7 @@ groupcorplot <- function(x, y, group, data, stat) {
     group_by(data[[group]]) %>%
     dplyr::summarize(correlation = cor(data[[x]], data[[y]], method = c(stat)))
     dat <- data.frame(dat)
-    corplot <- ggplot2::ggplot(dat, aes_string(x = 'dat[, 1]', y = 'dat[ ,2]'))
+    corplot <- ggplot2::ggplot(dat, ggplot2::aes_string(x = 'dat[, 1]', y = 'dat[ ,2]'))
     corplot <- corplot + ggplot2::geom_point() + ggplot2::theme_bw()
     print(corplot)
   }

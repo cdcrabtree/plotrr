@@ -16,5 +16,5 @@
 #'@export
 
 makefacnum <- function(x) {
-  x <- as.numeric(as.character(x))
+  as.numeric(as.character(x))
 }
