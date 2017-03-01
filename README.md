@@ -23,7 +23,7 @@ The latest stable version (0.2.0) can be installed from CRAN.
 install.packages("plotrr")
 ```
 
-The latest development version on GitHub can be installed using devtools.
+The latest development version (0.3.0) on GitHub can be installed using devtools.
 
 ```
 if(!require("ghit")){
