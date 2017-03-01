@@ -21,7 +21,7 @@ violinplots <- function(x, y, group, data) {
   with(data, {
     for(i in 1:length(unique(data[[group]]))) {
       j <- unique(data[[group]])[i]
-      violin.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_violin() + ggplot2::labs(title = j) + xlab(x) + ylab(y)
+      violin.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_violin() + ggplot2::labs(title = j) + ggplot2::xlab(x) + ggplot2::ylab(y)
       violin.j <- violin.j + ggplot2::theme_bw()
       print(violin.j)
     }

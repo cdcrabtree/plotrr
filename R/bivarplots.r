@@ -21,7 +21,7 @@ bivarplots <- function(x, y, group, data) {
   with(data, {
   for(i in 1:length(unique(data[[group]]))) {
     j <- unique(data[[group]])[i]
-    bivar.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_jitter() + ggplot2::geom_smooth(method = loess) + ggplot2::labs(title = j) + xlab(x) + ylab(y)
+    bivar.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j], y = data[[y]][data[[group]]==j])) + ggplot2::geom_jitter() + ggplot2::geom_smooth(method = loess) + ggplot2::labs(title = j) + ggplot2::xlab(x) + ggplot2::ylab(y)
     bivar.j <- bivar.j + ggplot2::theme_bw()
     print(bivar.j)
   }
