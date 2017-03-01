@@ -24,13 +24,11 @@ A tibble data frame with group identifiers and calculated correlation coefficien
 Returns a tibble data frame with group/unit identifiers and the correlation coefficient between two measures for each group/unit in a data frame. This can be used to examine the relationsip between two factors within cases.
 }
 \examples{
-\dontrun{
 a <- runif(1000, min = 0, max = 1)
 b <- a + rnorm(1000, mean = 0, sd =1)
 c <- rep(c(1:10), times = 100)
 data <- data.frame(a, b, c)
 groupcor("a", "b", "c", data, "pearson")
-}
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

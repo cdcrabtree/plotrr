@@ -13,9 +13,7 @@ clear(...)
 Effectively clears the R terminal by filling it with whitespace.
 }
 \examples{
-\dontrun{
 clear()
-}
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

@@ -40,6 +40,9 @@ If you would like to contribute to the package, that is great! We welcome pull r
 ## Tests
 To test the software, users and potential contributors can use the example code provided in the documentation for each function.
 
+## Thanks
+Thanks to [https://github.com/kbroman](kbroman) for his excellent reviewer suggestions and changes.
+
 ### References
 - Crabtree, Charles, and Michael J. Nelson. 2017. "New Evidence for a Positive Relationship Between De Facto Judicial Independence and State Respect for Empowerment Rights." _International Studies Quarterly_.
 - Trochim, William M. K., and James P. Donnelly. 2008. _Research Methods Knowledge Base_. New York, NY: Cengage Learning.

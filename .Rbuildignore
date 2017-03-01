@@ -3,7 +3,9 @@
 ^\.travis\.yml$
 ^appveyor\.yml$
 ^revdep$
-^paper$
 ^_config\.yml$
 ^\.gitattributes\.R$
 ^cran-comments\.md$
+^paper$
+^License\.md$
+^NEWS\.md$

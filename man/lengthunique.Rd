@@ -16,10 +16,8 @@ The number of unique values in a vector.
 Calculates the number of unique values in a vector.
 }
 \examples{
-\dontrun{
 x <- rep(c(1:10), 10)
-length.unique(x)
-}
+lengthunique(x)
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

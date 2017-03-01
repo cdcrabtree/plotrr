@@ -16,14 +16,12 @@ A numeric vector.
 Converts factor vectors to numeric vectors.
 }
 \examples{
-\dontrun{
 x <- c("x", "y", "z")
 x <- as.factor(x)
 x
 x <- makefacnum(x)
 x
 is.numeric(x)
-}
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

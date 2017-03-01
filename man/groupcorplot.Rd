@@ -24,13 +24,11 @@ A figure that plots the correlation coefficient between measures across groups/u
 Returns a figure that plots the correlation coefficient between measures within groups/units. This can be used to visually explore the relationsip between two factors within cases.
 }
 \examples{
-\dontrun{
 a <- runif(1000, min = 0, max = 1)
 b <- a + rnorm(1000, mean = 0, sd =1)
 c <- rep(c(1:10), times = 100)
 data <- data.frame(a, b, c)
 groupcorplot("a", "b", "c", data, "pearson")
-}
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}

@@ -20,12 +20,10 @@ A plot of the bivariate relationship between two measures with a rugplot for eac
 Returns a plot of the bivariate relationship between two measures with a rugplot for each measure.
 }
 \examples{
-\dontrun{
 a <- runif(1000, min = 0, max = 1)
 b <- a + rnorm(1000, mean = 0, sd =1)
 data <- data.frame(a, b)
 bivarrugplot("a", "b", data)
-}
 }
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
