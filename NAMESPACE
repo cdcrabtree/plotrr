@@ -7,11 +7,7 @@ export(dotplots)
 export(groupcor)
 export(groupcorplot)
 export(histplots)
-<<<<<<< HEAD
 export(lengthunique)
-=======
-export(length.unique)
->>>>>>> da1203af84977064b33951d385044f162d1e5387
 export(makefacnum)
 export(violinplots)
 importFrom(dplyr,"%>%")
