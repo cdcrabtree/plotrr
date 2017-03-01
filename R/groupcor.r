@@ -14,7 +14,7 @@
 #'c <- rep(c(1:10), times = 100)
 #'data <- data.frame(a, b, c)
 #'groupcor("a", "b", "c", data, "pearson")
-#'@importFrom dplyr "%>%"
+#'@importFrom dplyr "%>%" "group_by"
 #'@importFrom stats "cor"
 #'@export
 

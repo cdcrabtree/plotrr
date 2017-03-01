@@ -1,5 +1,8 @@
 # plotrr 0.3.0
 
+## Major changes
+- Added vignette.
+
 ## Bug fixes
 - Incorporated [https://github.com/kbroman](kbroman) changes (# 1, @kbroman).
 - Updated documentation by removing `\dontrun{}` (# 2).

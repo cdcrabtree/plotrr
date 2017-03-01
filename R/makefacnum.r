@@ -5,7 +5,7 @@
 #'@param x A vector.
 #'@return A numeric vector.
 #'@examples
-#'x <- c("x", "y", "z")
+#'x <- c("1", "2", "3")
 #'x <- as.factor(x)
 #'x
 #'x <- makefacnum(x)
