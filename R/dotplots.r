@@ -22,7 +22,7 @@ dotplots <- function(x, y, group, data, n) {
   with(data, {
     for(i in 1:length(unique(data[[group]]))) {
       j <- unique(data[[group]])[i]
-      dot.j <- ggplot2::ggplot(data[data[[group]]==j, ], aes(x = data[[x]][data[[group]]==j])) + ggplot2::geom_dotplot(binwidth=1/n) + ggplot2::labs(title = j) + xlab(x)
+      dot.j <- ggplot2::ggplot(data[data[[group]]==j, ], ggplot2::aes(x = data[[x]][data[[group]]==j])) + ggplot2::geom_dotplot(binwidth=1/n) + ggplot2::labs(title = j) + xlab(x)
       dot.j <- dot.j + ggplot2::theme_bw()
       print(dot.j)
     }
