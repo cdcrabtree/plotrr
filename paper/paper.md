@@ -1,4 +1,4 @@
-  ---
+---
   title: 'Plotrr: Functions for making visual exploratory data analysis with nested data easier.'
   tags:
     - exploratory data analysis
@@ -18,7 +18,7 @@
      index: 2
   date: 12 February 2017
   bibliography: paper.bib
-  ---
+---
 
 # Summary
 
