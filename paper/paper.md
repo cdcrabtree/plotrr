@@ -17,6 +17,7 @@
    - name: Pennsylvania State University
      index: 2
   date: 12 February 2017
+  output: markdown
   bibliography: paper.bib
   ---
 
