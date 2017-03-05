@@ -1,4 +1,6 @@
   ---
+  format: markdown_github
+  bibliography: paper.bib
   title: 'Plotrr: Functions for making visual exploratory data analysis with nested data easier.'
   tags:
     - exploratory data analysis
@@ -17,8 +19,6 @@
    - name: Pennsylvania State University
      index: 2
   date: 12 February 2017
-  format: markdown_github
-  bibliography: paper.bib
   ---
 
 # Summary
