@@ -1,11 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Corrected the LICENSE file as requested.
-
-* Corrected the author information.
-
-* Added 'importFrom("stats", "cor")' to NAMESPACE file.
+* Removed to functions and updated the package documentation.
 
 ## Test environments
 * local OS X install

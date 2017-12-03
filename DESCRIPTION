@@ -1,7 +1,7 @@
 Package: plotrr
 Type: Package
 Title: Making Visual Exploratory Data Analysis with Nested Data Easier
-Version: 0.3.0
+Version: 1.0.0
 Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu"),
               person("Michael J.", "Nelson", role = c("aut")))

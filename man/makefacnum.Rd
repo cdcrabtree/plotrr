@@ -16,7 +16,7 @@ A numeric vector.
 Converts factor vectors to numeric vectors.
 }
 \examples{
-x <- c("x", "y", "z")
+x <- c("1", "2", "3")
 x <- as.factor(x)
 x
 x <- makefacnum(x)
