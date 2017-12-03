@@ -2,3 +2,6 @@
 
 ## Major changes
 - Removed `groupcor` and `groupcorplot` functions since better versions exist in other packages.
+
+## Minor changes
+- Updated documentation and README
