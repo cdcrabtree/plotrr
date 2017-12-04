@@ -1,7 +1,7 @@
 ## Resubmission
 This is a resubmission. In this version I have:
 
-* Removed to functions and updated the package documentation.
+* Fixed a missing link in the README.MD file.
 
 ## Test environments
 * local OS X install

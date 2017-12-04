@@ -33,7 +33,7 @@ If you would like to contribute to the package, that is great! We welcome pull r
 To test the software, users and potential contributors can use the example code provided in the documentation for each function.
 
 ## Thanks
-Thanks to [Karl Broman](https://github.com/kbroman) and [Hadley Wickham]() for providing excellent free guies to building R packages.
+Thanks to [Karl Broman](https://github.com/kbroman) and [Hadley Wickham](http://hadley.nz/) for providing excellent free guies to building R packages.
 
 ### References
 - Trochim, William M. K., and James P. Donnelly. 2008. _Research Methods Knowledge Base_. New York, NY: Cengage Learning.
